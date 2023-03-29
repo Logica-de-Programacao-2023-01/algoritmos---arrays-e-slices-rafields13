@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	// 1. Crie um Array de inteiros com 3 elementos e imprima a soma dos valores armazenados no Array.
 
-	lista := [3]int{1, 2, 3}
+	/*lista := [3]int{1, 2, 3}
 
 	var soma int = lista[0] + lista[1] + lista[2]
 	fmt.Printf("A soma dos elementos da lista é: %d.", soma)
@@ -48,5 +46,25 @@ func main() {
 	}
 
 	fmt.Println(slice)
-	
+
+	//5. Crie um Array bidimensional de inteiros com 3 linhas e 2 colunas. Solicite ao usuário que informe os valores de cada elemento da matriz. Em seguida, imprima a matriz resultante.
+
+	matriz := [3][2]int{}
+
+	for i := 0; i < 3; i++ {
+		for j := 0; j < 2; j++ {
+			var valor int
+			fmt.Printf("Digite o valor da posição [%d][%d]: ", i, j)
+			fmt.Scan(&valor)
+			matriz[i][j] = valor
+
+			fmt.Println("Matriz resultante:")
+			for i := 0; i < 3; i++ {
+				for j := 0; j < 2; j++ {
+					fmt.Printf("%d ", matriz[i][j])
+				}
+				fmt.Println()
+			}
+		}
+	}*/
 }
